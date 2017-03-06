@@ -4,10 +4,10 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="TicTacToeGame.exe"/>
-    <OBJFILES value="TicTacToeGame.obj START.obj"/>
+    <OBJFILES value="TicTacToeGame.obj START.obj MENU.obj"/>
     <RESFILES value="TicTacToeGame.res"/>
     <DEFFILE value=""/>
-    <RESDEPEN value="$(RESFILES) START.dfm"/>
+    <RESDEPEN value="$(RESFILES) START.dfm MENU.dfm"/>
     <LIBFILES value=""/>
     <LIBRARIES value=""/>
     <SPARELIBS value="vcl.lib rtl.lib"/>
@@ -46,6 +46,7 @@
       <FILE FILENAME="TicTacToeGame.res" FORMNAME="" UNITNAME="TicTacToeGame.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="TicTacToeGame.cpp" FORMNAME="" UNITNAME="TicTacToeGame" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="START.cpp" FORMNAME="Form1" UNITNAME="START" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MENU.cpp" FORMNAME="Form2" UNITNAME="MENU" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>

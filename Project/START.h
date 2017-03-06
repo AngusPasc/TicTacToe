@@ -17,10 +17,12 @@ __published:	// IDE-managed Components
         TImage *Image1;
         TImage *Image2;
         TLabel *Label1;
+        TLabel *Label2;
         void __fastcall Image1StartDock(TObject *Sender,
           TDragDockObject *&DragObject);
         void __fastcall Label1MouseEnter(TObject *Sender);
         void __fastcall Label1MouseLeave(TObject *Sender);
+        void __fastcall Label1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);

@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 128
   Width = 1016
   Height = 839
-  Caption = 'Form1'
+  Caption = 'Tic Tac Toe Game - By Rafal Ciecwierz'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -4915,12 +4915,34 @@ object Form1: TForm1
     Transparent = True
   end
   object Label1: TLabel
-    Left = 427
-    Top = 544
-    Width = 140
-    Height = 73
-    Visible = False
+    Left = 435
+    Top = 552
+    Width = 132
+    Height = 52
+    Caption = '           '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -44
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    OnClick = Label1Click
     OnMouseEnter = Label1MouseEnter
     OnMouseLeave = Label1MouseLeave
+  end
+  object Label2: TLabel
+    Left = 904
+    Top = 776
+    Width = 86
+    Height = 15
+    Caption = 'By   Rafal   Ciewierz'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Bebas'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
   end
 end
